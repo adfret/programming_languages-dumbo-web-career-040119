@@ -39,8 +39,6 @@ def reformat_languages(languages)
   v.merge!(:style =>["functional", "oo"])
   end
 
-  b
-
 
   c+k+b
 
