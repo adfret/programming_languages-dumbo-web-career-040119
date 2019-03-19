@@ -42,7 +42,7 @@ def reformat_languages(languages)
 
 l =  c+k+b
 
-lto_h
+l.to_h
 
 
 
