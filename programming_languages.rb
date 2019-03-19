@@ -28,11 +28,11 @@ def reformat_languages(languages)
   end
 
   c.to_h.each do |i,v|
-  v.merge!(:style => :oo)
+  v.merge!(:style => [:oo])
   end
 
   k.to_h.each do |i,v|
-  v.merge!(:style => :functional)
+  v.merge!(:style => [:functional])
   end
 
   b.each do |i,v|
